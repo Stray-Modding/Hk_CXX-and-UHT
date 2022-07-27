@@ -1,8 +1,0 @@
-#ifndef UE4SS_SDK_BP_ANIM_NEWSPAPER_HPP
-#define UE4SS_SDK_BP_ANIM_NEWSPAPER_HPP
-
-class ABP_ANIM_NEWSPAPER_C : public ABP_ANIM_BASE_StaticMeshProps_C
-{
-}; // Size: 0x238
-
-#endif
