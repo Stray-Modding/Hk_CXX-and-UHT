@@ -1,0 +1,35 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "NiagaraEmitterScriptProperties.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=CoreUObject -ObjectName=Guid -FallbackName=Guid
+#include "EScriptExecutionMode.h"
+#include "NiagaraEventScriptProperties.generated.h"
+
+USTRUCT(BlueprintType)
+struct FNiagaraEventScriptProperties : public FNiagaraEmitterScriptProperties {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    EScriptExecutionMode ExecutionMode;
+    
+    UPROPERTY(EditAnywhere)
+    uint32 SpawnNumber;
+    
+    UPROPERTY(EditAnywhere)
+    uint32 MaxEventsPerFrame;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FGuid SourceEmitterID;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FName SourceEventName;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool bRandomSpawnNumber;
+    
+    UPROPERTY(EditAnywhere)
+    uint32 MinSpawnNumber;
+    
+    NIAGARA_API FNiagaraEventScriptProperties();
+};
+
