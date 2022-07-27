@@ -1,0 +1,311 @@
+[2022-07-20 22:36:33] Console created
+[2022-07-20 22:36:33] UE4SS - v1.3.3 Beta #0 - Build #3918
+[2022-07-20 22:36:33] WITH_CASE_PRESERVING_NAME: No
+
+[2022-07-20 22:36:33] No specific game configuration found, using default configuration file
+[2022-07-20 22:36:33] Config: C:\Program Files (x86)\Steam\steamapps\common\Stray\Hk_project\Binaries\Win64\UE4SS-settings.ini
+
+[2022-07-20 22:36:33] root directory: C:\Program Files (x86)\Steam\steamapps\common\Stray\Hk_project\Binaries\Win64
+[2022-07-20 22:36:33] working directory: C:\Program Files (x86)\Steam\steamapps\common\Stray\Hk_project\Binaries\Win64
+[2022-07-20 22:36:33] game executable directory: C:\Program Files (x86)\Steam\steamapps\common\Stray\Hk_project\Binaries\Win64
+[2022-07-20 22:36:33] mods directory: C:\Program Files (x86)\Steam\steamapps\common\Stray\Hk_project\Binaries\Win64\Mods
+[2022-07-20 22:36:33] log directory: C:\Program Files (x86)\Steam\steamapps\common\Stray\Hk_project\Binaries\Win64
+[2022-07-20 22:36:33] object dumper directory: C:\Program Files (x86)\Steam\steamapps\common\Stray\Hk_project\Binaries\Win64
+
+
+[2022-07-20 22:36:33] Scan attempt 1/60
+[2022-07-20 22:36:33] AOB scans could not be completed because of the following reasons:
+Was unable to find AOB for 'Unreal Engine Version'.
+Could not determine Unreal Engine version: 'Branch' member variable FString data was nullptr
+You need to override the engine version in 'UE4SS-settings.ini.
+
+Was unable to find address for 'StaticConstructObject_Internal'
+You can supply your own in 'UE4SS_Signatures/StaticConstructObject'
+
+Was unable to find AOB for 'FName::ToString'
+You can supply your own in 'UE4SS_Signatures/FName_ToString.lua'
+
+[2022-07-20 22:36:33] Scan attempt 2/60
+[2022-07-20 22:36:33] AOB scans could not be completed because of the following reasons:
+Was unable to find AOB for 'Unreal Engine Version'.
+Could not determine Unreal Engine version: 'Branch' member variable FString data was nullptr
+You need to override the engine version in 'UE4SS-settings.ini.
+
+Was unable to find address for 'StaticConstructObject_Internal'
+You can supply your own in 'UE4SS_Signatures/StaticConstructObject'
+
+Was unable to find AOB for 'FName::ToString'
+You can supply your own in 'UE4SS_Signatures/FName_ToString.lua'
+
+[2022-07-20 22:36:33] Scan attempt 3/60
+[2022-07-20 22:36:34] AOB scans could not be completed because of the following reasons:
+Was unable to find AOB for 'Unreal Engine Version'.
+Could not determine Unreal Engine version: 'Branch' member variable FString data was nullptr
+You need to override the engine version in 'UE4SS-settings.ini.
+
+Was unable to find address for 'StaticConstructObject_Internal'
+You can supply your own in 'UE4SS_Signatures/StaticConstructObject'
+
+Was unable to find AOB for 'FName::ToString'
+You can supply your own in 'UE4SS_Signatures/FName_ToString.lua'
+
+[2022-07-20 22:36:34] Scan attempt 4/60
+[2022-07-20 22:36:34] AOB scans could not be completed because of the following reasons:
+Was unable to find AOB for 'Unreal Engine Version'.
+Could not determine Unreal Engine version: 'Branch' member variable FString data was nullptr
+You need to override the engine version in 'UE4SS-settings.ini.
+
+[2022-07-20 22:36:34] StaticConstructObject_Internal address: 0x7ff6f6fb0ba0 <- Built-in
+[2022-07-20 22:36:34] FName::ToString address: 0x7ff6f6dc2790 <- Built-in
+[2022-07-20 22:36:34] Scan attempt 5/60
+[2022-07-20 22:36:34] Engine Version: 4.27 <- Built-in
+[2022-07-20 22:36:34] StaticConstructObject_Internal address: 0x7ff6f6fb0ba0 <- Built-in
+[2022-07-20 22:36:34] FName::ToString address: 0x7ff6f6dc2790 <- Built-in
+[2022-07-20 22:36:34] Info: Found FName::ToString in both Engine & CoreUObject modules, using the first match
+[2022-07-20 22:36:34] AOB scans could not be completed because of the following reasons:
+Was unable to find AOB for 'FName::FName'
+You can supply your own in 'UE4SS_Signatures/FName_Constructor.lua'
+
+[2022-07-20 22:36:34] GUObjectArray address: 0x7ff6faa5ac00 <- Built-in
+[2022-07-20 22:36:34] GMalloc address: 0x7ff6f6cc0e70 <- Built-in
+[2022-07-20 22:36:34] AOB scans could not be completed because of the following reasons:
+Was unable to find AOB for 'FName::FName'
+You can supply your own in 'UE4SS_Signatures/FName_Constructor.lua'
+
+[2022-07-20 22:36:34] GUObjectArray address: 0x7ff6faa5ac00 <- Built-in
+[2022-07-20 22:36:34] GMalloc address: 0x7ff6f6cc0e70 <- Built-in
+[2022-07-20 22:36:34] AOB scans could not be completed because of the following reasons:
+Was unable to find AOB for 'FName::FName'
+You can supply your own in 'UE4SS_Signatures/FName_Constructor.lua'
+
+[2022-07-20 22:36:34] GUObjectArray address: 0x7ff6faa5ac00 <- Built-in
+[2022-07-20 22:36:34] GMalloc address: 0x7ff6f6cc0e70 <- Built-in
+[2022-07-20 22:36:35] AOB scans could not be completed because of the following reasons:
+Was unable to find AOB for 'FName::FName'
+You can supply your own in 'UE4SS_Signatures/FName_Constructor.lua'
+
+[2022-07-20 22:36:35] GUObjectArray address: 0x7ff6faa5ac00 <- Built-in
+[2022-07-20 22:36:35] GMalloc address: 0x7ff6f6cc0e70 <- Built-in
+[2022-07-20 22:36:35] GUObjectArray address: 0x7ff6faa5ac00 <- Built-in
+[2022-07-20 22:36:35] GMalloc address: 0x7ff6f6cc0e70 <- Built-in
+[2022-07-20 22:36:35] FName::FName address: 0x7ff6f6db5650 <- Built-in
+[2022-07-20 22:36:35] Already constructed: /Script/CoreUObject.Class
+[2022-07-20 22:36:35] Already constructed: /Script/CoreUObject
+[2022-07-20 22:36:35] Already constructed: /Script/CoreUObject.Struct
+[2022-07-20 22:36:35] Already constructed: /Script/Engine.Pawn
+[2022-07-20 22:36:35] Already constructed: /Script/Engine.Character
+[2022-07-20 22:36:35] Already constructed: /Script/Engine.Actor
+[2022-07-20 22:36:35] Already constructed: /Script/CoreUObject.Vector
+[2022-07-20 22:36:35] Already constructed: /Script/Engine.Default__DefaultPawn
+[2022-07-20 22:36:35] Already constructed: /Script/Engine.HitResult
+[2022-07-20 22:36:35] Already constructed: /Script/Engine.Default__MaterialExpression
+[2022-07-20 22:36:35] Already constructed: /Script/Engine.ActorComponent
+[2022-07-20 22:36:35] Already constructed: /Script/CoreUObject.OrientedBox
+[2022-07-20 22:36:35] Already constructed: /Script/Engine.MovementComponent
+[2022-07-20 22:36:35] Already constructed: /Script/Engine.HUD
+[2022-07-20 22:36:35] Already constructed: /Script/Engine.PlayerController
+[2022-07-20 22:36:35] Already constructed: /Script/Engine.PlayerCameraManager
+[2022-07-20 22:36:35] Already constructed: /Script/CoreUObject.EInterpCurveMode
+[2022-07-20 22:36:35] Already constructed: /Script/Engine.ENetRole
+[2022-07-20 22:36:35] Already constructed: /Script/MovieScene.MovieSceneEditorData
+[2022-07-20 22:36:35] Already constructed: /Script/UMG.Widget
+[2022-07-20 22:36:35] Already constructed: /Script/UMG.ComboBoxString
+[2022-07-20 22:36:35] Already constructed: /Script/CoreUObject.Interface
+[2022-07-20 22:36:35] Already constructed: /Script/CoreUObject.DynamicClass
+[2022-07-20 22:36:35] Constructed 0 of 0 objects
+[2022-07-20 22:36:35] 
+##### MEMBER OFFSETS START #####
+
+[2022-07-20 22:36:35] UObjectBase::ClassPrivate = 0x10
+[2022-07-20 22:36:35] UObjectBase::InternalIndex = 0xC
+[2022-07-20 22:36:35] UObjectBase::ObjectFlags = 0x8
+[2022-07-20 22:36:35] UObjectBase::NamePrivate = 0x18
+[2022-07-20 22:36:35] UObjectBase::OuterPrivate = 0x20
+[2022-07-20 22:36:35] UScriptStruct::StructFlags = 0xB0
+[2022-07-20 22:36:35] UScriptStruct::CppStructOps = 0xB8
+[2022-07-20 22:36:35] UScriptStruct::bPrepareCppStructOpsCompleted = 0xB4
+[2022-07-20 22:36:35] UScriptStruct::ICppStructOps::Alignment = 0xC
+[2022-07-20 22:36:35] UScriptStruct::ICppStructOps::Size = 0x8
+[2022-07-20 22:36:35] FField::ClassPrivate = 0x8
+[2022-07-20 22:36:35] FField::NamePrivate = 0x28
+[2022-07-20 22:36:35] FField::FlagsPrivate = 0x30
+[2022-07-20 22:36:35] FField::Next = 0x20
+[2022-07-20 22:36:35] FField::Owner = 0x10
+[2022-07-20 22:36:35] FOutputDevice::bAutoEmitLineTerminator = 0x9
+[2022-07-20 22:36:35] FOutputDevice::bSuppressEventTag = 0x8
+[2022-07-20 22:36:35] FEnumProperty::Enum = 0x80
+[2022-07-20 22:36:35] FEnumProperty::UnderlyingProp = 0x78
+[2022-07-20 22:36:35] UStruct::DestructorLink = 0x80
+[2022-07-20 22:36:35] UStruct::Children = 0x48
+[2022-07-20 22:36:35] UStruct::ChildProperties = 0x50
+[2022-07-20 22:36:35] UStruct::PostConstructLink = 0x88
+[2022-07-20 22:36:35] UStruct::UnresolvedScriptProperties = 0xA0
+[2022-07-20 22:36:35] UStruct::MinAlignment = 0x5C
+[2022-07-20 22:36:35] UStruct::PropertiesSize = 0x58
+[2022-07-20 22:36:35] UStruct::PropertyLink = 0x70
+[2022-07-20 22:36:35] UStruct::RefLink = 0x78
+[2022-07-20 22:36:35] UStruct::Script = 0x60
+[2022-07-20 22:36:35] UStruct::ScriptAndPropertyObjectReferences = 0x90
+[2022-07-20 22:36:35] UStruct::SuperStruct = 0x40
+[2022-07-20 22:36:35] UFunction::EventGraphCallOffset = 0xD0
+[2022-07-20 22:36:35] UFunction::EventGraphFunction = 0xC8
+[2022-07-20 22:36:35] UFunction::RPCId = 0xBA
+[2022-07-20 22:36:35] UFunction::FirstPropertyToInit = 0xC0
+[2022-07-20 22:36:35] UFunction::Func = 0xD8
+[2022-07-20 22:36:35] UFunction::FunctionFlags = 0xB0
+[2022-07-20 22:36:35] UFunction::NumParms = 0xB4
+[2022-07-20 22:36:35] UFunction::ParmsSize = 0xB6
+[2022-07-20 22:36:35] UFunction::RPCResponseId = 0xBC
+[2022-07-20 22:36:35] UFunction::ReturnValueOffset = 0xB8
+[2022-07-20 22:36:35] UField::Next = 0x28
+[2022-07-20 22:36:35] FProperty::ArrayDim = 0x38
+[2022-07-20 22:36:35] FProperty::DestructorLinkNext = 0x68
+[2022-07-20 22:36:35] FProperty::ElementSize = 0x3C
+[2022-07-20 22:36:35] FProperty::NextRef = 0x60
+[2022-07-20 22:36:35] FProperty::Offset_Internal = 0x4C
+[2022-07-20 22:36:35] FProperty::PostConstructLinkNext = 0x70
+[2022-07-20 22:36:35] FProperty::PropertyLinkNext = 0x58
+[2022-07-20 22:36:35] FProperty::PropertyFlags = 0x40
+[2022-07-20 22:36:35] FProperty::RepIndex = 0x48
+[2022-07-20 22:36:35] FProperty::RepNotifyFunc = 0x50
+[2022-07-20 22:36:35] UWorld::bAllowAudioPlayback = 0x10E
+[2022-07-20 22:36:35] UWorld::ActiveLevelCollectionIndex = 0x158
+[2022-07-20 22:36:35] UWorld::AudioTimeSeconds = 0x5AC
+[2022-07-20 22:36:35] UWorld::CommittedPersistentLevelName = 0x610
+[2022-07-20 22:36:35] UWorld::bInTick = 0x10B
+[2022-07-20 22:36:35] UWorld::CleanupWorldTag = 0x61C
+[2022-07-20 22:36:35] UWorld::BuildStreamingDataTimer = 0x3D0
+[2022-07-20 22:36:35] UWorld::bPlayersOnly = 0x10D
+[2022-07-20 22:36:35] UWorld::DeltaTimeSeconds = 0x5B0
+[2022-07-20 22:36:35] UWorld::ExtraReferencedObjects = 0x68
+[2022-07-20 22:36:35] UWorld::LastTimeUnbuiltLightingWasEncountered = 0x598
+[2022-07-20 22:36:35] UWorld::NextSwitchCountdown = 0x5DC
+[2022-07-20 22:36:35] UWorld::bMaterialParameterCollectionInstanceNeedsDeferredUpdate = 0x10F
+[2022-07-20 22:36:35] UWorld::RealTimeSeconds = 0x5A8
+[2022-07-20 22:36:35] UWorld::NextURL = 0x5F0
+[2022-07-20 22:36:35] UWorld::NumStreamingLevelsBeingLoaded = 0x5EA
+[2022-07-20 22:36:35] UWorld::OriginOffsetThisFrame = 0x5D0
+[2022-07-20 22:36:35] UWorld::PauseDelay = 0x5B4
+[2022-07-20 22:36:35] UWorld::PerModuleDataObjects = 0x78
+[2022-07-20 22:36:35] UWorld::bIsDefaultLevel = 0x10C
+[2022-07-20 22:36:35] UWorld::PlayerNum = 0x558
+[2022-07-20 22:36:35] UWorld::PreparingLevelNames = 0x600
+[2022-07-20 22:36:35] UWorld::bAggressiveLOD = 0x10C
+[2022-07-20 22:36:35] UWorld::StreamingLevelsPrefix = 0xC0
+[2022-07-20 22:36:35] UWorld::bTriggerPostLoadMap = 0x10B
+[2022-07-20 22:36:35] UWorld::bIsLevelStreamingFrozen = 0x10B
+[2022-07-20 22:36:35] UWorld::StreamingVolumeUpdateDelay = 0x55C
+[2022-07-20 22:36:35] UWorld::bIsBuilt = 0x10B
+[2022-07-20 22:36:35] UWorld::TimeSeconds = 0x5A0
+[2022-07-20 22:36:35] UWorld::UnpausedTimeSeconds = 0x5A4
+[2022-07-20 22:36:35] UWorld::ViewLocationsRenderedLastFrame = 0xF8
+[2022-07-20 22:36:35] UWorld::bActorsInitialized = 0x10C
+[2022-07-20 22:36:35] UWorld::bIsTearingDown = 0x10D
+[2022-07-20 22:36:35] UWorld::bAreConstraintsDirty = 0x10E
+[2022-07-20 22:36:35] UWorld::bBegunPlay = 0x10D
+[2022-07-20 22:36:35] UWorld::bDebugPauseExecution = 0x10D
+[2022-07-20 22:36:35] UWorld::bDoDelayedUpdateCullDistanceVolumes = 0x10C
+[2022-07-20 22:36:35] UWorld::bRequestedBlockOnAsyncLoading = 0x10C
+[2022-07-20 22:36:35] UWorld::bDropDetail = 0x10C
+[2022-07-20 22:36:35] UWorld::bMatchStarted = 0x10D
+[2022-07-20 22:36:35] UWorld::bIsCameraMoveableWhenPaused = 0x10E
+[2022-07-20 22:36:35] UWorld::bIsRunningConstructionScript = 0x10C
+[2022-07-20 22:36:35] UWorld::bShouldSimulatePhysics = 0x10C
+[2022-07-20 22:36:35] UWorld::bIsWorldInitialized = 0x10B
+[2022-07-20 22:36:35] UWorld::bKismetScriptError = 0x10D
+[2022-07-20 22:36:35] UWorld::bMarkedObjectsPendingKill = 0x618
+[2022-07-20 22:36:35] UWorld::bWorldWasLoadedThisTick = 0x10B
+[2022-07-20 22:36:35] UWorld::bPlayersOnlyPending = 0x10D
+[2022-07-20 22:36:35] UWorld::bPostTickComponentUpdate = 0x10B
+[2022-07-20 22:36:35] UWorld::bRequiresHitProxies = 0x10E
+[2022-07-20 22:36:35] UWorld::bShouldForceUnloadStreamingLevels = 0x10E
+[2022-07-20 22:36:35] UWorld::bShouldForceVisibleStreamingLevels = 0x10E
+[2022-07-20 22:36:35] UWorld::bShouldTick = 0x10E
+[2022-07-20 22:36:35] UWorld::bStartup = 0x10D
+[2022-07-20 22:36:35] UWorld::bStreamingDataDirty = 0x10E
+[2022-07-20 22:36:35] UWorld::bTickNewlySpawned = 0x10B
+[2022-07-20 22:36:35] UClass::ClassConstructor = 0xB0
+[2022-07-20 22:36:35] UClass::ClassAddReferencedObjects = 0xC0
+[2022-07-20 22:36:35] UClass::bCooked = 0xC8
+[2022-07-20 22:36:35] UClass::ClassConfigName = 0xE8
+[2022-07-20 22:36:35] UClass::ClassDefaultObject = 0x118
+[2022-07-20 22:36:35] UClass::ClassFlags = 0xCC
+[2022-07-20 22:36:35] UClass::ClassGeneratedBy = 0xE0
+[2022-07-20 22:36:35] UClass::ClassUnique = 0xC8
+[2022-07-20 22:36:35] UClass::ClassVTableHelperCtorCaller = 0xB8
+[2022-07-20 22:36:35] UClass::ClassWithin = 0xD8
+[2022-07-20 22:36:35] UClass::FirstOwnedClassRep = 0x110
+[2022-07-20 22:36:35] UClass::Interfaces = 0x1D8
+[2022-07-20 22:36:35] UClass::NetFields = 0x100
+[2022-07-20 22:36:35] UClass::SparseClassData = 0x120
+[2022-07-20 22:36:35] UClass::SparseClassDataStruct = 0x128
+[2022-07-20 22:36:35] UEnum::CppForm = 0x50
+[2022-07-20 22:36:35] UEnum::CppType = 0x30
+[2022-07-20 22:36:35] UEnum::EnumDisplayNameFn = 0x58
+[2022-07-20 22:36:35] UEnum::Names = 0x40
+[2022-07-20 22:36:35] UEnum::EnumFlags_Internal = 0x54
+[2022-07-20 22:36:35] FObjectPropertyBase::PropertyClass = 0x78
+[2022-07-20 22:36:35] FDelegateProperty::SignatureFunction = 0x78
+[2022-07-20 22:36:35] FMulticastDelegateProperty::SignatureFunction = 0x78
+[2022-07-20 22:36:35] FSetProperty::ElementProp = 0x78
+[2022-07-20 22:36:35] FStructProperty::Struct = 0x78
+[2022-07-20 22:36:35] FArrayProperty::Inner = 0x78
+[2022-07-20 22:36:35] FMapProperty::KeyProp = 0x78
+[2022-07-20 22:36:35] FMapProperty::ValueProp = 0x80
+[2022-07-20 22:36:35] FBoolProperty::FieldMask = 0x7B
+[2022-07-20 22:36:35] FBoolProperty::ByteMask = 0x7A
+[2022-07-20 22:36:35] FBoolProperty::FieldSize = 0x78
+[2022-07-20 22:36:35] FBoolProperty::ByteOffset = 0x79
+[2022-07-20 22:36:35] FByteProperty::Enum = 0x78
+[2022-07-20 22:36:35] FClassProperty::MetaClass = 0x80
+[2022-07-20 22:36:35] FSoftClassProperty::MetaClass = 0x80
+[2022-07-20 22:36:35] FInterfaceProperty::InterfaceClass = 0x78
+[2022-07-20 22:36:35] FFieldPathProperty::PropertyClass = 0x78
+[2022-07-20 22:36:35] 
+##### MEMBER OFFSETS END #####
+
+[2022-07-20 22:36:35] m_shared_functions: 0x7ffe0b9d2100
+[2022-07-20 22:36:35] Setting up mods...
+[2022-07-20 22:36:35] Starting mods...
+[2022-07-20 22:36:35] Starting mod 'ObjectDumperMod'
+[2022-07-20 22:36:35] Starting mod 'CXXHeaderGeneratorMod'
+[2022-07-20 22:36:35] Starting mod 'UHTCompatibleHeaderGeneratorMod'
+[2022-07-20 22:36:35] Starting mod 'CheatManagerEnablerMod'
+[2022-07-20 22:36:35] Found mod 'ActorDumperMod' but can't start it because it's not enabled in mods.txt.
+[2022-07-20 22:36:35] Starting mod 'ConsoleCommandsMod'
+[2022-07-20 22:36:35] Starting mod 'ConsoleEnablerMod'
+[2022-07-20 22:36:35] [Lua] ConsoleClass, GameViewport, or ViewportConsole is invalid
+[2022-07-20 22:36:35] Event loop start
+[2022-07-20 22:36:36] [Lua] [ConsoleEnabler] ConsoleKey[1]: F10
+[2022-07-20 22:36:36] [Lua] [ConsoleEnabler] ConsoleKey[2]: ﾲ
+[2022-07-20 22:36:36] [Lua] [ConsoleEnabler] ConsoleKey[3]: F10
+[2022-07-20 22:36:36] [Lua] [CheatManager Creator] Constructed CheatManager [0x1A1DB3FDE40]
+[2022-07-20 22:36:36] [Lua] [CheatManager Creator] Enabled CheatManager
+[2022-07-20 22:36:43] Generating UHT compatible headers...
+[2022-07-20 22:36:43] Cleaning up previously generated SDK (if one exists)
+[2022-07-20 22:36:43] Initializing native packages dump
+[2022-07-20 22:36:43] Gathering native objects for dumping
+[2022-07-20 22:36:43] Attempting to dump 2808 native classes
+[2022-07-20 22:36:43] Unhandled default value of the FObjectProperty ObjectProperty /Script/ToyoToolRuntime.ToyoActor:PhysicalMaterial: PhysicalMaterial /Game/Misc/materials/toyo.toyo
+[2022-07-20 22:36:44] Unhandled default value of the FClassProperty ClassProperty /Script/MagicLeapARPin.MagicLeapARPinRenderer:ClassToSpawn: BlueprintGeneratedClass /MagicLeapPassableWorld/MagicLeapARPinInfoActor.MagicLeapARPinInfoActor_C
+[2022-07-20 22:36:44] Unhandled default value of the FObjectProperty ObjectProperty /Script/MagicLeapAR.LuminAROrigin:PlaneSurfaceMaterial: Material /Engine/EngineDebugMaterials/VertexColorMaterial.VertexColorMaterial
+[2022-07-20 22:36:44] Unhandled default value of the FObjectProperty ObjectProperty /Script/MagicLeapAR.LuminAROrigin:WireframeMaterial: Material /Engine/EngineDebugMaterials/WireframeMaterial.WireframeMaterial
+[2022-07-20 22:36:44] Unhandled default value of the FObjectProperty ObjectProperty /Script/AugmentedReality.ARSessionConfig:DefaultMeshMaterial: Material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial
+[2022-07-20 22:36:44] Unhandled default value of the FObjectProperty ObjectProperty /Script/AugmentedReality.ARSessionConfig:DefaultWireframeMeshMaterial: Material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial
+[2022-07-20 22:36:44] Unhandled default value of the FObjectProperty ObjectProperty /Script/PhysXVehicles.VehicleWheel:CollisionMesh: StaticMesh /Engine/EngineMeshes/Cylinder.Cylinder
+[2022-07-20 22:36:44] Unhandled default value of the FObjectProperty ObjectProperty /Script/UMG.WidgetComponent:TranslucentMaterial: MaterialInstanceConstant /Engine/EngineMaterials/Widget3DPassThrough_Translucent.Widget3DPassThrough_Translucent
+[2022-07-20 22:36:44] Unhandled default value of the FObjectProperty ObjectProperty /Script/UMG.WidgetComponent:TranslucentMaterial_OneSided: MaterialInstanceConstant /Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.Widget3DPassThrough_Translucent_OneSided
+[2022-07-20 22:36:44] Unhandled default value of the FObjectProperty ObjectProperty /Script/UMG.WidgetComponent:OpaqueMaterial: MaterialInstanceConstant /Engine/EngineMaterials/Widget3DPassThrough_Opaque.Widget3DPassThrough_Opaque
+[2022-07-20 22:36:44] Unhandled default value of the FObjectProperty ObjectProperty /Script/UMG.WidgetComponent:OpaqueMaterial_OneSided: MaterialInstanceConstant /Engine/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.Widget3DPassThrough_Opaque_OneSided
+[2022-07-20 22:36:44] Unhandled default value of the FObjectProperty ObjectProperty /Script/UMG.WidgetComponent:MaskedMaterial: MaterialInstanceConstant /Engine/EngineMaterials/Widget3DPassThrough_Masked.Widget3DPassThrough_Masked
+[2022-07-20 22:36:44] Unhandled default value of the FObjectProperty ObjectProperty /Script/UMG.WidgetComponent:MaskedMaterial_OneSided: MaterialInstanceConstant /Engine/EngineMaterials/Widget3DPassThrough_Masked_OneSided.Widget3DPassThrough_Masked_OneSided
+[2022-07-20 22:36:45] Unhandled default value of the FObjectProperty ObjectProperty /Script/GeometryCollectionEngine.GeometryCollectionRenderLevelSetActor:TargetVolumeTexture: VolumeTexture /Engine/EngineDebugMaterials/VolumeToRender.VolumeToRender
+[2022-07-20 22:36:45] Unhandled default value of the FObjectProperty ObjectProperty /Script/GeometryCollectionEngine.GeometryCollectionRenderLevelSetActor:RayMarchMaterial: Material /Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP.M_VolumeRenderSphereTracePP
+[2022-07-20 22:36:45] Unhandled default value of the FObjectProperty ObjectProperty /Script/InteractiveToolsFramework.InteractiveGizmo:InputBehaviors: InputBehaviorSet /Script/InteractiveToolsFramework.Default__InteractiveGizmo:GizmoInputBehaviors
+[2022-07-20 22:36:45] Unhandled default value of the FObjectProperty ObjectProperty /Script/InteractiveToolsFramework.InteractiveTool:InputBehaviors: InputBehaviorSet /Script/InteractiveToolsFramework.Default__InteractiveTool:InputBehaviors
+[2022-07-20 22:36:45] Unhandled default value of the FObjectProperty ObjectProperty /Script/InteractiveToolsFramework.InputRouter:ActiveInputBehaviors: InputBehaviorSet /Script/InteractiveToolsFramework.Default__InputRouter:InputBehaviors
+[2022-07-20 22:36:45] Attempting to dump 1844 native structs
+[2022-07-20 22:36:46] Attempting to dump 1177 native enums
+[2022-07-20 22:36:46] Writing stub module build files for 146 modules
+[2022-07-20 22:36:46] Done!
+[2022-07-20 22:36:46] Generating UHT compatible headers took 3.2553107 seconds

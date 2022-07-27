@@ -1,0 +1,31 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EyeTrackerStereoGazeData.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=BlueprintFunctionLibrary -FallbackName=BlueprintFunctionLibrary
+#include "EyeTrackerGazeData.h"
+#include "EyeTrackerFunctionLibrary.generated.h"
+
+class APlayerController;
+
+UCLASS(BlueprintType)
+class EYETRACKER_API UEyeTrackerFunctionLibrary : public UBlueprintFunctionLibrary {
+    GENERATED_BODY()
+public:
+    UEyeTrackerFunctionLibrary();
+    UFUNCTION(BlueprintCallable)
+    static void SetEyeTrackedPlayer(APlayerController* PlayerController);
+    
+    UFUNCTION(BlueprintPure)
+    static bool IsStereoGazeDataAvailable();
+    
+    UFUNCTION(BlueprintPure)
+    static bool IsEyeTrackerConnected();
+    
+    UFUNCTION(BlueprintCallable)
+    static bool GetStereoGazeData(FEyeTrackerStereoGazeData& OutGazeData);
+    
+    UFUNCTION(BlueprintCallable)
+    static bool GetGazeData(FEyeTrackerGazeData& OutGazeData);
+    
+};
+

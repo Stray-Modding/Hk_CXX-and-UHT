@@ -1,0 +1,47 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EMagicLeapPrivilege.generated.h"
+
+UENUM(BlueprintType)
+enum class EMagicLeapPrivilege : uint8 {
+    Invalid,
+    BatteryInfo,
+    CameraCapture,
+    ComputerVision,
+    WorldReconstruction,
+    InAppPurchase,
+    AudioCaptureMic,
+    DrmCertificates,
+    Occlusion,
+    LowLatencyLightwear,
+    Internet,
+    IdentityRead,
+    BackgroundDownload,
+    BackgroundUpload,
+    MediaDrm,
+    Media,
+    MediaMetadata,
+    PowerInfo,
+    LocalAreaNetwork,
+    VoiceInput,
+    Documents,
+    ConnectBackgroundMusicService,
+    RegisterBackgroundMusicService,
+    PcfRead,
+    PwFoundObjRead = 0x17,
+    NormalNotificationsUsage,
+    MusicService,
+    ControllerPose,
+    GesturesSubscribe,
+    GesturesConfig,
+    AddressBookRead,
+    AddressBookWrite,
+    AddressBookBasicAccess,
+    CoarseLocation,
+    FineLocation,
+    HandMesh,
+    WifiStatusRead,
+    SocialConnectionsInvitesAccess,
+    SecureBrowserWindow,
+};
+

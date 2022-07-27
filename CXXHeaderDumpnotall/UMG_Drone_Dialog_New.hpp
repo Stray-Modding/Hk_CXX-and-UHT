@@ -1,0 +1,98 @@
+#ifndef UE4SS_SDK_UMG_Drone_Dialog_New_HPP
+#define UE4SS_SDK_UMG_Drone_Dialog_New_HPP
+
+class UUMG_Drone_Dialog_New_C : public UDialogUserWidget
+{
+    FPointerToUberGraphFrame UberGraphFrame;
+    class UWidgetAnimation* ShowItemArrowLoop;
+    class UWidgetAnimation* Open;
+    class UWidgetAnimation* ShowVisualizedItemName;
+    class UWidgetAnimation* HideNameItemsCombo;
+    class UWidgetAnimation* ShowItems;
+    class UWidgetAnimation* ShowName;
+    class UBorder* dialog_background;
+    class UHorizontalBox* dialog_wrapper;
+    class URichTextBlock* DialogLine;
+    class UCanvasPanel* DialogLineContainer;
+    class UTextBlock* GainedItem_Text;
+    class UImage* Image;
+    class UImage* Image_86;
+    class UImage* Image_224;
+    class UImage* Image_377;
+    class UCanvasPanel* item_visualizer_wrapper;
+    class UTextBlock* ItemName;
+    class UImage* ItemRendererImage;
+    class UImage* items_background;
+    class UCanvasPanel* items_panel;
+    class UTextBlock* items_text;
+    class UTextBlock* SpeakerName;
+    class UCanvasPanel* top_slider;
+    class UUMG_Drone_HorizontalInventory_New_C* UMG_Drone_HorizontalInventory_New;
+    class UUMG_VerticalScrollbar_New_C* UMG_VerticalScrollbar_New;
+    class UImage* vertical_arrow;
+    int32 CurrentLineDisplayedLength;
+    FString CurrentLineString;
+    FString CurrentLineStringWithoutMarkup;
+    bool IsInItemSelection;
+    bool IsAtDialogEnd;
+    int32 ItemListOffset;
+    int32 SelectedItemIndex;
+    TArray<class UUMG_Drone_GridButton_C*> Slots;
+    class UTalkableComponent* talkable;
+    class ULootableComponent* PendingShowItem;
+    int32 CurrentHUDStateDisplays;
+    class ABP_HKHUD_C* HUD;
+    class ULootableComponent* CurrentHUDSelectedItem;
+    float RenderScale;
+    float DialogLineYOffset;
+    float ScrollInput;
+    float ScrollSpeed;
+    bool IsWaitingForShowItem;
+    float TimeBetweenLetterDisplay;
+    class ABP_ItemRenderer_C* ItemRenderer;
+    class UMaterialInstanceDynamic* FullPhotoMaterialInstance;
+    bool IsVisualizingItem;
+    class UMaterialInstanceDynamic* BackgroundMaterialInstance;
+    class UMaterialInstanceDynamic* ItemsBackgroundMaterialInstance;
+    float VerticalRenderLocation;
+    class UAudioComponent* OpenSound;
+    TEnumAsByte<E_sfx_miaou> NextMiaouSfx;
+
+    void IsInVisualizingItemIntroAnimation(bool& Value);
+    void OnLeftVerticalAxis(float _value, bool& _handled);
+    void OnLeftHorizontalAxis(float _value, bool& _handled);
+    void OnRightHorizontalAxis(float _value, bool& _handled);
+    void OnRightVerticalAxis(float _value, bool& _handled);
+    void OnDpadDownPressed(bool& _handled);
+    void OnDpadDownReleased(bool& _handled);
+    void OnDpadUpReleased(bool& _handled);
+    void OnDpadUpPressed(bool& _handled);
+    void GetSelectedItem(class ULootableComponent*& Lootable);
+    void UpdateHUDItemDisplays(class ULootableComponent* Lootable);
+    void OnRightPressed(bool& _handled);
+    void OnLeftPressed(bool& _handled);
+    void OnCancelPressed(bool& _handled);
+    void OnXPressed(bool& _handled);
+    void OnDisplayed();
+    void OnReset();
+    void OnDialogLineBegan(class UTalkableComponent* _talkableComponent, const FDialogLine& _line);
+    void OnDialogEnded(class UTalkableComponent* _talkableComponent);
+    void Tick(FGeometry MyGeometry, float InDeltaTime);
+    void OnShowNameAnimationFinished();
+    void OnShowItemsRequested();
+    void OnShowItemsAnimationFinished();
+    void OnAddedObjectToInventory(class ABackpack* _backpack, class ULootableComponent* _loot);
+    void OnRemovedObjectFromInventory(class ABackpack* _backpack, class ULootableComponent* _loot);
+    void OnInitialized();
+    void BeginVisualizeItem(TSubclassOf<class AActor> Item Class, bool IsMemory);
+    void EndVisualizeItem();
+    void UpdateHudStateDisplays(int32 State);
+    void UpdateColors();
+    void UpdateRenderScale(float DeltaTime);
+    void StopAllContentAnimations();
+    void CancelPendingMiaou();
+    void SetNextMiaouSfx(TEnumAsByte<E_sfx_miaou> Sfx);
+    void ExecuteUbergraph_UMG_Drone_Dialog_New(int32 EntryPoint);
+};
+
+#endif
